@@ -1,9 +1,12 @@
-Ninja PIE Media website v5 upload notes
+Ninja PIE Media website v6
 
-Upload the contents of this folder to the root of your GitHub repo: ninjapiemedia-site.
+Upload everything inside this folder to the root of the GitHub repo. Replace existing files and the full assets folder.
 
-Important:
-- Upload index.html, work.html, collaborate.html, links.html, about.html, contact.html, privacy.html, terms.html, age.html, release.html, dmca.html, compliance.html, content-policy.html, thank-you.html, 404.html, styles.css, and script.js at the repo root.
-- Upload/replace the full assets folder at the repo root.
-- The sample gallery now uses pre-watermarked files: assets/gallery-placeholder-1.jpg through assets/gallery-placeholder-4.jpg.
-- After committing, Cloudflare Pages should redeploy automatically. Hard refresh the site with Command + Shift + R.
+Important v6 changes:
+- Mobile hamburger menu now opens and closes.
+- Services section uses crisp image assets and simplified Collab Profit-Share title.
+- Process images updated to connect/plan/create concepts.
+- Gallery placeholders use directly burned-in watermarks.
+- Work page keeps Postimages as the external gallery destination placeholder.
+
+After committing in GitHub, wait for Cloudflare Pages to redeploy, then hard refresh the site.
