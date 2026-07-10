@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function closeMenu(){
     if(!menu || !hamburger) return;
     menu.classList.remove('open');
+    document.body.classList.remove('menu-open');
     hamburger.setAttribute('aria-expanded','false');
     hamburger.textContent = '☰';
   }
@@ -31,20 +32,34 @@ document.addEventListener('DOMContentLoaded', () => {
       e.stopPropagation();
     }
     if(!menu || !hamburger) return;
-    const open = menu.classList.toggle('open');
+    const open = !menu.classList.contains('open');
+    menu.classList.toggle('open', open);
+    document.body.classList.toggle('menu-open', open);
     hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
     hamburger.textContent = open ? '×' : '☰';
   }
 
   if(hamburger && menu){
-    hamburger.addEventListener('click', toggleMenu, { passive: false });
-    hamburger.addEventListener('touchend', toggleMenu, { passive: false });
+    let lastPointerToggle = 0;
+    hamburger.addEventListener('pointerup', (e) => {
+      lastPointerToggle = Date.now();
+      toggleMenu(e);
+    }, { passive: false });
+    hamburger.addEventListener('click', (e) => {
+      if(Date.now() - lastPointerToggle < 700) {
+        e.preventDefault();
+        e.stopPropagation();
+        return;
+      }
+      toggleMenu(e);
+    }, { passive: false });
     hamburger.addEventListener('keydown', (e) => {
       if(e.key === 'Enter' || e.key === ' ') toggleMenu(e);
+      if(e.key === 'Escape') closeMenu();
     });
     menu.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
     document.addEventListener('click', (e) => {
-      if(menu.classList.contains('open') && !menu.contains(e.target) && e.target !== hamburger) closeMenu();
+      if(menu.classList.contains('open') && !menu.contains(e.target) && !hamburger.contains(e.target)) closeMenu();
     });
   }
 });

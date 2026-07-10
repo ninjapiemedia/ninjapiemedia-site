@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620"><style>.s{stroke:#0b0b0b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.f{fill:#0b0b0b}.w{fill:#fff}.r{fill:#e21b1b}.g{fill:#c4a071}.t{font:700 34px Arial, sans-serif;fill:#0b0b0b}</style><rect width="900" height="620" fill="#fff"/><line x1="450" y1="90" x2="450" y2="530" stroke="#ddd" stroke-width="6"/><rect x="85" y="125" width="280" height="370" rx="34" fill="#fff" stroke="#0b0b0b" stroke-width="8"/><rect x="535" y="125" width="280" height="370" rx="34" fill="#fff" stroke="#0b0b0b" stroke-width="8"/><path class="f" d="M165 245c0-55 42-100 95-100s95 45 95 100v105H165z"/><circle cx="260" cy="242" r="58" class="w"/><path class="s" d="M238 238q18 18 42 0"/><path class="f" d="M620 240c0-58 44-105 100-105s100 47 100 105v130H620z"/><circle cx="720" cy="238" r="60" class="w"/><path class="s" d="M695 234q22 20 48 0"/><rect x="145" y="395" width="170" height="55" rx="18" fill="#f4f4f4" stroke="#0b0b0b" stroke-width="5"/><rect x="585" y="392" width="190" height="55" rx="18" fill="#f4f4f4" stroke="#0b0b0b" stroke-width="5"/><path class="s" d="M420 260h60M460 230l35 30-35 30"/><text x="310" y="565" class="t">PLAN BY TEXT</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Cartoon model completing paperwork while ninja verifies ID">
+<rect width="900" height="560" fill="#fff"/>
+<ellipse cx="450" cy="500" rx="310" ry="26" fill="#ecebea"/>
+<!-- table and paperwork -->
+<rect x="210" y="355" width="480" height="105" rx="18" fill="#fff" stroke="#111" stroke-width="12"/>
+<rect x="318" y="305" width="165" height="122" rx="10" fill="#fff" stroke="#111" stroke-width="8"/>
+<line x1="342" y1="338" x2="458" y2="338" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<line x1="342" y1="365" x2="455" y2="365" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<line x1="342" y1="392" x2="424" y2="392" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<!-- model left -->
+<path d="M270 125c54-7 104 33 110 88 5 50-19 84-46 112-28 29-43 67-37 113H185c-7-60 11-111 40-148 25-32 19-49 18-83-1-42 12-73 27-82z" fill="#111"/>
+<path d="M230 198c13-37 51-53 91-39 33 12 49 47 36 83-13 35-49 56-84 48-35-8-56-46-43-92z" fill="#fff"/>
+<path d="M282 215c5 13 14 20 27 20s23-7 28-20" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+<path d="M252 330c-35 28-50 61-43 101" fill="none" stroke="#111" stroke-width="21" stroke-linecap="round"/>
+<path d="M334 331c42 14 62 36 76 71" fill="none" stroke="#111" stroke-width="21" stroke-linecap="round"/>
+<!-- ninja right -->
+<circle cx="615" cy="206" r="71" fill="#111"/>
+<path d="M570 206c15-28 78-28 94 0-12 32-82 32-94 0z" fill="#fff"/>
+<path d="M594 207c5 10 12 15 21 15s17-5 22-15" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+<path d="M677 190c35-8 59-29 68-61" fill="none" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+<path d="M566 275c-43 39-64 95-60 164h176c12-72-2-129-42-169" fill="#111"/>
+<rect x="670" y="280" width="115" height="75" rx="10" fill="#fff" stroke="#111" stroke-width="9"/>
+<circle cx="704" cy="318" r="14" fill="#111"/>
+<line x1="731" y1="304" x2="765" y2="304" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<line x1="731" y1="332" x2="765" y2="332" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<path d="M650 296c28 3 50 18 67 44" fill="none" stroke="#111" stroke-width="21" stroke-linecap="round"/>
+<path d="M490 399c38-12 73-13 106-3" fill="none" stroke="#111" stroke-width="16" stroke-linecap="round"/>
+</svg>

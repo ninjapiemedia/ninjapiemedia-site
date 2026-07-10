@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620"><style>.s{stroke:#0b0b0b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.f{fill:#0b0b0b}.w{fill:#fff}.r{fill:#e21b1b}.g{fill:#c4a071}.t{font:700 34px Arial, sans-serif;fill:#0b0b0b}</style><rect width="900" height="620" fill="#fff"/><path d="M210 360h520v145H210z" fill="#fff" stroke="#0b0b0b" stroke-width="8"/><path d="M210 360q120 70 260 60t260-60v145H210z" fill="#f7f7f7" stroke="#0b0b0b" stroke-width="5"/><path class="f" d="M470 210c0-58 44-105 100-105s100 47 100 105v145H470z"/><circle cx="570" cy="210" r="62" class="w"/><path class="s" d="M545 205q20 22 47 0"/><path class="f" d="M140 280c0-54 40-98 92-98s92 44 92 98v120H140z"/><circle cx="232" cy="275" r="55" class="w"/><path class="s" d="M210 270q18 18 42 0"/><rect x="95" y="370" width="140" height="82" rx="18" class="f"/><circle cx="238" cy="411" r="42" class="w"/><circle cx="238" cy="411" r="23" class="f"/><path class="s" d="M165 455v80M120 535h90M195 535h90"/><path class="r" d="M336 340h45v45h-45z"/><text x="285" y="565" class="t">SETUP & CREATE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Ninja setting up camera on tripod for a tasteful private scene">
+<rect width="900" height="560" fill="#fff"/>
+<ellipse cx="455" cy="505" rx="320" ry="28" fill="#ecebea"/>
+<!-- bed -->
+<rect x="340" y="312" width="420" height="145" rx="22" fill="#fff" stroke="#111" stroke-width="12"/>
+<path d="M360 364c90 45 230 45 375 0" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+<path d="M370 415c92 34 228 35 350 0" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<rect x="610" y="260" width="120" height="70" rx="16" fill="#fff" stroke="#111" stroke-width="10"/>
+<!-- model in bed, tasteful silhouette -->
+<path d="M535 214c42-9 83 17 94 58 10 37-11 70-43 87-34 18-74 9-95-22-23-34-8-109 44-123z" fill="#111"/>
+<path d="M530 272c16-32 68-37 96-8-10 37-78 50-96 8z" fill="#fff"/>
+<path d="M557 286c5 8 12 12 21 12s16-4 21-12" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+<path d="M474 360c67-37 135-43 203-16" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round"/>
+<!-- camera/tripod -->
+<rect x="152" y="240" width="140" height="82" rx="13" fill="#111"/>
+<circle cx="248" cy="281" r="29" fill="#fff"/>
+<circle cx="248" cy="281" r="15" fill="#111"/>
+<rect x="172" y="213" width="60" height="34" rx="9" fill="#111"/>
+<line x1="222" y1="322" x2="222" y2="442" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+<line x1="222" y1="358" x2="144" y2="462" stroke="#111" stroke-width="13" stroke-linecap="round"/>
+<line x1="222" y1="358" x2="306" y2="462" stroke="#111" stroke-width="13" stroke-linecap="round"/>
+<!-- ninja adjusting camera -->
+<circle cx="330" cy="210" r="55" fill="#111"/>
+<path d="M296 210c12-22 56-22 68 0-12 26-58 26-68 0z" fill="#fff"/>
+<path d="M316 213c4 7 9 10 16 10s12-3 16-10" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<path d="M375 196c26-7 45-23 52-48" fill="none" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+<path d="M292 262c-34 33-50 79-46 138h136c6-53-6-100-38-137" fill="#111"/>
+<path d="M287 288c-32 16-54 41-65 73" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round"/>
+<path d="M349 286c-28 14-49 32-64 55" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round"/>
+<path d="M130 210l-28-23M140 180l-18-33M314 123l12-38" stroke="#c79d67" stroke-width="10" stroke-linecap="round"/>
+</svg>
